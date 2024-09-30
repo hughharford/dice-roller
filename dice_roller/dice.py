@@ -1,8 +1,10 @@
 # dice.py
 
+import random
+
 class Dice():
     def roll(self):
-        return 1
+        return random.randint(1,6)
 
 
 if __name__ == "__main__":
