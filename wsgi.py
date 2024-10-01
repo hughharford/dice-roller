@@ -8,3 +8,5 @@ app = Flask(__name__)
 def home():
     dice = Dice()
     return jsonify({'roll': dice.roll()})
+
+
